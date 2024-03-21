@@ -57,7 +57,7 @@ project/configs/_base_/datasets/lsj_data_re_aug_coco_detection.py
 ```
 
 ### To train a model on single node
-To accelerate convergence, we apply the [SoCo](https://arxiv.org/abs/2106.02637) pretrain on the ResNet-50 backbone (`./pretrain/resnet.pth`).
+To accelerate convergence, we apply the [SoCo](https://arxiv.org/abs/2106.02637) pretrain on the ResNet-50 backbone (`./backbone_pth/backbone.pth`).
 ```Bash
 ./dist_train.sh <Config Path> <GPU Number> <Work Dir>
 ```
