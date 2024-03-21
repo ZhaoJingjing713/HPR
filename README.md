@@ -36,7 +36,7 @@ With the transformative impact of the Transformer, DETR pioneered the applicatio
 | DDQ             | 24    |       | 52.5  |[config](project/configs/ddq_300q_4scale_2x_r50.py)               | [link]() |
 | DDQ             | 12    | √     | 53.0  |[config](project/configs/ddq-lsj_300q_4scale_1x_r50.py)           | [link]() |
 | DDQ             | 24    | √     | 54.2  |[config](project/configs/ddq-lsj_300q_4scale_2x_r50.py)           | [link]() |
-| DDQ             | 36    | √     | **54.9** |[config](project/configs/ddq-lsj_300q_4scale_2x_r50.py)        | [link]() |
+| DDQ             | 36    | √     | **54.9** |[config](project/configs/ddq-lsj_300q_4scale_3x_r50.py)        | [link]() |
 
 
 
@@ -50,7 +50,7 @@ With the transformative impact of the Transformer, DETR pioneered the applicatio
 | Align DETR      | 24    |       | 59.3  |[config](project/configs/align_detr-900q_4scale_2x_swinL.py)        | [link]() |
 | Align DETR      | 12    | √     | 58.8  |[config](project/configs/align_detr-lsj_900q_4scale_1x_swinL.py)    | [link]() |
 | Align DETR      | 24    | √     | 59.6  |[config](project/configs/align_detr-lsj_900q_4scale_2x_swinL.py)    | [link]() |
-| Align DETR      | 36    | √     | **60.0**  |[config](project/configs/align_detr-lsj_900q_4scale_2x_swinL.py)    | [link]() |
+| Align DETR      | 36    | √     | **60.0**  |[config](project/configs/align_detr-lsj_900q_4scale_3x_swinL.py)    | [link]() |
 
 ## Installation
 We test our models under ```python=3.10.10, pytorch=1.12.0,cuda=11.6```. Other versions might be available as well.
