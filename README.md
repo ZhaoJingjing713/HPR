@@ -19,6 +19,39 @@ With the transformative impact of the Transformer, DETR pioneered the applicatio
 <img src='./images/comprehensive_study.png' width="100%">
 </div>
 
+## Main Results
+
+### Results on COCO with **ResNet-50**
+| Base Model      | Epoch | w/LSJ |   AP  | Configs | Checkpoints |
+|:---------------:|:-----:|:-----:|:-----:|:-------:|:-----------:|
+| Deformable DETR | 12    |       | 50.6  |[config](project/configs/deformable_detr-900q_4scale_1x_r50.py)   | [link]() |
+| Deformable DETR | 24    |       | 51.9  |[config](project/configs/deformable_detr-900q_4scale_2x_r50.py)   | [link]() |
+| DINO            | 12    |       | 51.1  |[config](project/configs/dino-900q_4scale_1x_r50.py)              | [link]() |
+| DINO            | 24    |       | 51.9  |[config](project/configs/dino-900q_4scale_2x_r50.py)              | [link]() |
+| Align DETR      | 12    |       | 52.1  |[config](project/configs/align_detr-900q_4scale_1x_r50.py)        | - |
+| Align DETR      | 24    |       | 52.7  |[config](project/configs/align_detr-900q_4scale_2x_r50.py)        | - |
+| Align DETR      | 12    | [x]   | 52.4  |[config](project/configs/align_detr-lsj_900q_4scale_1x_r50.py)    | [link]() |
+| Align DETR      | 24    | [x]   | 54.2  |[config](project/configs/align_detr-lsj_900q_4scale_2x_r50.py)    | [link]() |
+| DDQ             | 12    |       | 52.4  |[config](project/configs/ddq_300q_4scale_1x_r50.py)               | [link]() |
+| DDQ             | 24    |       | 52.5  |[config](project/configs/ddq_300q_4scale_2x_r50.py)               | [link]() |
+| DDQ             | 12    | [x]   | 53.0  |[config](project/configs/ddq-lsj_300q_4scale_1x_r50.py)           | [link]() |
+| DDQ             | 24    | [x]   | 54.2  |[config](project/configs/ddq-lsj_300q_4scale_2x_r50.py)           | [link]() |
+| DDQ             | 36    | [x]   | **54.9** |[config](project/configs/ddq-lsj_300q_4scale_2x_r50.py)        | [link]() |
+
+
+
+### Results on COCO with **Swin-Large**
+| Base Model      | Epoch | w/LSJ |   AP  | Configs | Checkpoints |
+|:---------------:|:-----:|:-----:|:-----:|:-------:|:-----------:|
+| DDQ             | 12    |       | 58.7  |[config](project/configs/ddq_300q_4scale_1x_swinL.py)               | [link]() |
+| DDQ             | 12    | [x]   | 58.4  |[config](project/configs/ddq-lsj_300q_4scale_1x_swinL.py)           | [link]() |
+| DDQ             | 24    | [x]   | 59.3  |[config](project/configs/ddq-lsj_300q_4scale_2x_swinL.py)           | [link]() |
+| Align DETR      | 12    |       | 58.6  |[config](project/configs/align_detr-900q_4scale_1x_swinL.py)        | [link]() |
+| Align DETR      | 24    |       | 59.3  |[config](project/configs/align_detr-900q_4scale_2x_swinL.py)        | [link]() |
+| Align DETR      | 12    | [x]   | 58.8  |[config](project/configs/align_detr-lsj_900q_4scale_1x_swinL.py)    | [link]() |
+| Align DETR      | 24    | [x]   | 59.6  |[config](project/configs/align_detr-lsj_900q_4scale_2x_swinL.py)    | [link]() |
+| Align DETR      | 36    | [x]   | **60.0**  |[config](project/configs/align_detr-lsj_900q_4scale_2x_swinL.py)    | [link]() |
+
 ## Installation
 We test our models under ```python=3.10.10, pytorch=1.12.0,cuda=11.6```. Other versions might be available as well.
 
