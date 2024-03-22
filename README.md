@@ -9,7 +9,7 @@ This is the official implementation of the paper "Hybrid Proposal Refiner: Revis
 > The University of Sydney
 
 ## TODO
-- [ ] Update the checkpoints
+- [x] Update the checkpoints
 
 ## Introduction
 
