@@ -154,7 +154,7 @@ optim_wrapper = dict(
 )  # custom_keys contains sampling_offsets and reference_points in DeformDETR  # noqa
 
 # learning policy
-max_iters = 88000*2   # 88000/(117266-coco train set/(16-bs))=12ep
+max_iters = 88000*2   # 88000/(118287-coco train set/(16-bs))≈12ep
 train_cfg = dict(
     type='IterBasedTrainLoop',
     max_iters=max_iters,    

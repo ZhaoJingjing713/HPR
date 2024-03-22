@@ -137,7 +137,7 @@ optim_wrapper = dict(
     paramwise_cfg=dict(custom_keys={'backbone': dict(lr_mult=0.1)})
 )  # custom_keys contains sampling_offsets and reference_points in DeformDETR  # noqa
 
-max_iters = 88000   # 88000/(117266-coco train set/(16-bs))=12ep
+max_iters = 88000   # 88000/(118287-coco train set/(16-bs))≈12ep
 train_cfg = dict(
     _delete_=True,
     type='IterBasedTrainLoop',
