@@ -1,4 +1,4 @@
-# Hybrid Proposal Reginer
+# Hybrid Proposal Refiner
 
 This is the official implementation of the paper "Hybrid Proposal Refiner: Revisiting DETR Series from the Faster R-CNN Perspective". 
 
