@@ -2,7 +2,7 @@
 
 This is the official implementation of the paper "Hybrid Proposal Refiner: Revisiting DETR Series from the Faster R-CNN Perspective". 
 
-> [**Hybrid Proposal Refiner: Revisiting DETR Series from the Faster R-CNN Perspective**]()
+> [**Hybrid Proposal Refiner: Revisiting DETR Series from the Faster R-CNN Perspective**](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_Hybrid_Proposal_Refiner_Revisiting_DETR_Series_from_the_Faster_R-CNN_CVPR_2024_paper.pdf)
 
 > Jinjing Zhao*, Fangyun Wei*, Chang Xu
 
@@ -111,3 +111,12 @@ You can refer to [Deformable-DETR](https://github.com/fundamentalvision/Deformab
 ## Citation
 
 If you use HPR in your research or wish to refer to the baseline results published here, please use the following BibTeX entry.
+```txt
+@inproceedings{zhao2024hybrid,
+  title={Hybrid Proposal Refiner: Revisiting DETR Series from the Faster R-CNN Perspective},
+  author={Zhao, Jinjing and Wei, Fangyun and Xu, Chang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17416--17426},
+  year={2024}
+}
+```
